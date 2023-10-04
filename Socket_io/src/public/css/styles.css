@@ -1,3 +1,20 @@
 body{
     margin: 1rem;
 }
+
+#products_container{
+    margin-top: 20px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 10px;
+
+}
+.product{
+    max-width: 300px;
+    height: 300px;
+}
+
+.product img{
+    height: 200px;
+}

@@ -11,9 +11,8 @@ const getProducts = async () => {
 
 const createProductDiv = (product) => {
   return `<div class="product">
+            <img src="${product.images[0]}" alt="">
             <h5 id="nombre">${product.title}</h5>
-            <p id="desc">${product.desc}</p>
-            <p id="code">${product.id}</p>
           </div>`;
 };
 
